@@ -33,7 +33,7 @@ class IdeaEater(toga.App):
             style=Pack(padding=(0, 5))
         )
 
-        monster_image = toga.images.Image("resources/idea_eater.png")
+        monster_image = toga.images.Image("resources/idea_monster_frand.png")
         monster_image_view = toga.ImageView(id='monster_image', image=monster_image)
 
         main_box.add(idea_box)
