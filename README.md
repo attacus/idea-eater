@@ -17,11 +17,19 @@ consider [becoming a financial member of BeeWare](https://beeware.org/contributi
 
 ---
 
-## How to build the Idea Eater
+## How to build Idea Eater yourself
+
+Idea Eater requires **Python 3** and [Briefcase](https://github.com/beeware/briefcase).
+
+If you want to build for platforms other than MacOS, please consult the [Briefcase docs](https://briefcase.readthedocs.io/en/latest/).
+
+You can get started on MacOS or Linux by following these steps:
 
 1) Clone this repo: `git clone git@github.com:attacus/idea-eater.git`
 2) Create a Python virtual environment: `python3 -m venv beeware-venv`
 3) Activate the virtual environment: `. beeware-venv/bin/activate`
 4) Enter the project directory: `cd idea-eater/`
 5) Install Briefcase in the virtual environment: `python -m pip install briefcase`
-6) Run your project in your dev environment. (Note that the `-d` flag is required the first time around to install missing dependencies that are specified in `pyproject.toml`.): `briefcase dev -d`
+6) Run your project in your dev environment: `briefcase dev -d`
+
+(Note that the `-d` flag is required the first time you run Briefcase in order to install missing dependencies that are specified in `pyproject.toml`.)
