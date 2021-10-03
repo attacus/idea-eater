@@ -1,6 +1,6 @@
 # Idea Eater
 
-![The Idea Eater](src/resources/idea_eater.png)
+<img src="src/idea_eater/resources/idea_eater.png" width="100">
 
 This application (supported primarily on MacOS) is designed to eat ideas so that you can get them out of your head when they might otherwise distract you.
 
