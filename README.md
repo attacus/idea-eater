@@ -34,3 +34,10 @@ You can get started on MacOS by following these steps:
 7) Build the app: `briefcase build`
 8) The standalone `Idea Eater.app` can now be found in `/macOS/app/Idea Eater/`
 9) Om nom nom
+
+## Notes for mouseless use
+
+If you want to add notes without needing to use a mouse or trackpad to click the "Nom" button, there are two options:
+
+1) In your Mac's settings, go to `Keyboard > Shortcuts` and check `Use keyboard navigation to move focus between controls`. This will allow you to enter an idea, press `Tab` to highlight the "Nom" button, then press `Space` to submit the idea
+2) Help the [Toga](https://github.com/beeware/toga) project (which powers the Idea Eater GUI) by adding the feature that captures the Enter key in the input box. You can read about the issue at: [https://github.com/beeware/toga/issues/213](https://github.com/beeware/toga/issues/213)
