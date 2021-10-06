@@ -25,7 +25,7 @@ You can get started on MacOS by following these steps:
 5) Install Briefcase in the virtual environment: `python -m pip install briefcase`
 6) (If you want to do development work, you can run your project in a dev environment: `briefcase dev -d`)
 7) Build the app: `briefcase build`
-8) The standalone `Idea Eater.app` can now be found in `/macOS/app/Idea Eater/`
+8) The standalone `Idea Eater.app` can now be found in `./macOS/app/Idea Eater/`
 9) Om nom nom
 
 ---
